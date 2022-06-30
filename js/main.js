@@ -1,7 +1,12 @@
 console.log('enviar mensaje en consola');
 console.log('enviar mensaje en consola 2');
 
-const Saludo = "Hola";
-let SegundoSaludo = 'chau';
-console.log(Saludo);
-console.log(SegundoSaludo);
+let nombreUsuario = prompt ('Nombre' + ' ' + 'y' + ' ' + 'Apellido' );
+let email = prompt ('E-mail' );
+let clave = prompt ('Contraseña');
+
+
+
+alert('Bienvenid@' + ' ' + nombreUsuario);
+console.log('Usuario logeado' + ' ' + nombreUsuario + ' '  + email);
+
