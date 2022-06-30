@@ -32,17 +32,12 @@ while (NombreIncorrecto<=1){
     } 
 }
 
-
-let email = prompt ('E-mail' );
 console.log(NombreIncorrecto);
 
 
+let email = prompt ('E-mail' );
 
 
 
-
-//let clave = prompt ('Contraseña');
-
-
-//console.log('Usuario logeado' + ' ' + nombreUsuario + ' '  + email);
+console.log('Usuario logeado' + ' ' + nombreUsuario + ' '  + email);
 
